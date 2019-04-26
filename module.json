@@ -1,0 +1,17 @@
+{
+    "name": "OvhApi",
+    "alias": "ovhapi",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\OvhApi\\Providers\\OvhApiServiceProvider"
+        
+    ],
+    "aliases": {
+
+    },
+    "files": [],
+    "requires": []
+}

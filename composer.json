@@ -1,0 +1,29 @@
+{
+    "name": "rafael/ovhapi",
+    "description": "",
+    "authors": [
+        {
+            "name": "Rafael Silva e Silva",
+            "email": "rafaelssilva35@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\OvhApi\\Providers\\OvhApiServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\OvhApi\\": "",
+            "Modules\\OvhApi\\Services\\Ovh\\": "Services/Ovh/"
+        }
+    },
+    "require": {
+        "ovh/ovh": "^2.0.1"
+    }
+}
