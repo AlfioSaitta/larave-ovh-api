@@ -25,8 +25,9 @@ class OvhApiCloudMethods {
      * @param type $project
      * @param type $network_id
      */
-    public function __construct( OvhConn $ovh_conn, $project = null, $network_id = NULL) 
+    public function __construct($project = null, $network_id = NULL) 
     {
+        $ovh_conn = new OvhConn();
         $projectId = $project ?? 'A';
         $this->project_id = config('ovhapi.ovh_config.projects.'.$projectId);
         $this->network = config('ovhapi.ovh_config.network_ids.'.$network_id??'A');
