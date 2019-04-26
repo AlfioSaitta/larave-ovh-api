@@ -39,7 +39,6 @@ class OvhApiCloudMethods {
      */
     public function getInstances()
     {
-        return $this->postInstacevnc('dbdec3d2-f2d2-4e3b-a5ed-214e0237bcb1');
         return $this->ovh->get('/cloud/project/'.$this->project_id.'/instance', array(
         
         ));
