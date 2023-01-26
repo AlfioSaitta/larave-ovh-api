@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\OvhApi\Service\Ovh;
+namespace Rafael\OvhApi\Service\Ovh;
 
 use Ovh\Api;
 use GuzzleHttp\Client;
