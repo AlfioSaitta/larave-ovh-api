@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace Modules\OvhApi\Service\Ovh;
+namespace Rafael\OvhApi\Service\Ovh;
 
 /**
  * Description of OvhApiMethods
